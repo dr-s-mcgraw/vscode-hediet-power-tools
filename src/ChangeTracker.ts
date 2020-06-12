@@ -56,13 +56,6 @@ export class ChangeTracker {
 			return;
 		}
 
-		if (this.tracker.changedTrackedSpans.length > 2) {
-			window.showErrorMessage(
-				"Cannot rename more than two tracked changes at once! Help me reach my sponsorship goal on github (10 sponsors) to fix this!"
-			);
-			return;
-		}
-
 		this.ignoreChanges = true;
 		try {
 			const edit = new WorkspaceEdit();
