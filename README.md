@@ -14,10 +14,6 @@ This extension provides various helper commands.
 
     ![](./docs/demo-apply-rename.gif)
 
-    This feature is currently limited to renaming at most 2 identifiers at once.
-    Help me developing this extension by sponsoring me on github!
-    Once I reach 10 sponsors I will remove this restriction.
-
 ## Planned Commands (Not Implemented Yet)
 
 -   Extend all selections until a selected character is found (inspired by `yo1dog.multi-cursor-search`).
